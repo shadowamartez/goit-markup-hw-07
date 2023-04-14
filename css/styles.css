@@ -746,6 +746,7 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .subscribe-input:focus {
     border-color: var(--subscribe-input-border-color-active);
 }
@@ -941,6 +942,12 @@ address {
 
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 320px) {
+    .modal {
+        width: 308px;
+    }
 }
 
 .modal-close {

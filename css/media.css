@@ -5,6 +5,16 @@
         margin-right: auto;
     }
 
+    .subscribe-input {
+        width: 264px;
+    }
+
+}
+
+@media screen and (min-width: 320px) {
+    .subscribe-input {
+        width: 264px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -470,4 +480,5 @@
         flex-direction: row;
     }
 }
+
 
