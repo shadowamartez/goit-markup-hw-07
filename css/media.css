@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
     .container {
         width: 428px;
         margin-left: auto;
@@ -178,6 +178,8 @@
         padding-bottom: 104px;
     }
 
+    
+
         /**-----------------CUSTOMERS-------------*/
 
     .customers-list {
@@ -229,13 +231,23 @@
         flex-direction: row;
         gap: 24px;
     }
+
+    .subscribe-btn {
+        margin-top: 0;
+    }
 }
 
 
 
 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+    .header-adress:first-child {
+        margin-bottom: 6px;
+    }
+}
 
-@media screen and (min-width: 1158px) {
+
+@media screen and (min-width: 1200px) {
     .container {
         width: 1158px;
     }
@@ -323,6 +335,10 @@
         gap: 24px;
     }
 
+    .goal-item:nth-child(-n + 2) {
+        margin-bottom: 0;
+    }
+
     .goal-title {
         font-weight: 500;
         font-size: 20px;
@@ -350,7 +366,7 @@
     /**-------------SECTION WHAT ARE WE DOING----------*/
 
     .about {
-        display: flex;
+        display: block;
         padding-bottom: 120px;
     }
 
@@ -411,9 +427,17 @@
 
     /**----------FOOTER----------*/
 
+    .container {
+        padding: 0 15px;
+    }
+
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .footer-container {
+        margin-right: 0;
     }
 
     .footer-container-container {
@@ -423,6 +447,7 @@
         margin-right: auto;
     }
 
+
     .footer-soc-container {
         margin-left: 120px;
     }
@@ -430,6 +455,7 @@
     .footer-container-subscribe {
         margin-left: 80px;
         margin-top: 0;
+        margin-right: 0;
     }
 
     .subscribe-form {

@@ -306,6 +306,13 @@ address {
     text-decoration: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .mob-menu-tel-link { 
+        font-size: 24px;
+    }
+}
+
+
 .mob-menu-adress-link {
     font-weight: 500;
     font-size: 20px;
@@ -383,6 +390,14 @@ address {
     color: var(--hero-tytle-color);
     width: 320px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .hero-title {
+        font-size: 26px;
+    }
+}
+
+
 
 .hero-btn {
     font-family: inherit;
@@ -464,6 +479,13 @@ address {
 .about-title {
     margin-bottom: 72px;
     text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .team-list {
@@ -717,7 +739,7 @@ address {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: transparent;
-    width: 398px;
+    width: 100%;
     color: var(--subscribe-input-color); 
     outline: transparent;
 
